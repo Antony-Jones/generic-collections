@@ -1,5 +1,5 @@
 {
-  "name": "collections",
+  "name": "generic-collections",
   "version": "0.0.1",
   "description": "A library for .NET like generic collections.",
   "scripts": {
@@ -7,7 +7,7 @@
     "es5:test": "mocha \"es5/test/**/*.js\" --ui tdd",
     "pretest": "npm run make",
     "test": "npm run es5:test && npm run es6:test",
-    "make":"tsc -p tsconfig.es5.json && tsc -p tsconfig.es6.json && tsc -p tsconfig.es6.commonjs.json"
+    "make": "tsc -p tsconfig.es5.json && tsc -p tsconfig.es6.json && tsc -p tsconfig.es6.commonjs.json"
   },
   "author": "Antony Jones",
   "license": "OpenBSD",
