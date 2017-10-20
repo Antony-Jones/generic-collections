@@ -13,6 +13,11 @@ The dictionary class is a key value pair collection. The dictionary class uses a
 
 The key benefit of this class over the traditional `dict['key'] = "testing";` approch is the ability to use complex objects as the key. It does this by generating a hash for the key using the has to look up the value.
 
+### Linq
+The library provides some basic linq methods which can be called on any generator function. 
+
+Currently this extends the IterableIterator prototype and further consideration of the pros and cons of this approch.
+
 ## License
 This project has been released under the MIT License, the text of which is included below:
 >MIT License
