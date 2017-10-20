@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "downlevelIteration":true,
+        "lib": [
+            "es5",
+            "dom",
+            "dom.iterable",
+            "es2015.iterable",
+            "es2015.symbol"
+        ],
+        "outDir": "es5"
+    }
+}
